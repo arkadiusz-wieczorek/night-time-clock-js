@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-rendering: optimizelegibility;
+	font-smooth: auto;
+	-webkit-font-smoothing: auto;
+}
+
+html,
+body {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.container {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.clock {
+	color: #FFF;
+	text-align: center;
+	display: inline-block;
+	font-size: 20rem;
+	font-family: monospace;
+}
